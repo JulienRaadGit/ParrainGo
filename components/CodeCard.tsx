@@ -32,12 +32,14 @@ export default function CodeCard({ app, code }: CodeCardProps) {
       </div>
       
       <div className="mb-4">
-        <div className="bg-gray-50 rounded-lg p-4 mb-3">
-          <div className="text-sm text-muted mb-1">Code parrainage</div>
-          <div className="text-2xl font-bold font-poppins text-ink">
-            {code.code}
+        {code.code && (
+          <div className="bg-gray-50 rounded-lg p-4 mb-3">
+            <div className="text-sm text-muted mb-1">Code parrainage</div>
+            <div className="text-2xl font-bold font-poppins text-ink">
+              {code.code}
+            </div>
           </div>
-        </div>
+        )}
         
         {code.note && (
           <p className="text-sm text-muted italic">
@@ -47,14 +49,16 @@ export default function CodeCard({ app, code }: CodeCardProps) {
       </div>
       
       <div className="flex gap-3">
-        <CopyButton 
-          code={code.code} 
-          appSlug={app.slug}
-          className="flex-1"
-        />
+        {code.code && (
+          <CopyButton 
+            code={code.code} 
+            appSlug={app.slug}
+            className="flex-1"
+          />
+        )}
         <button
           onClick={handleUseCode}
-          className="flex-1 px-4 py-2 rounded-lg font-medium bg-accent text-white hover:bg-green-600 transition-colors duration-200"
+          className={`px-4 py-2 rounded-lg font-medium bg-accent text-white hover:bg-green-600 transition-colors duration-200 ${code.code ? 'flex-1' : 'w-full'}`}
         >
           Utiliser le code
         </button>

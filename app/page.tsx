@@ -8,7 +8,7 @@ export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredApps = useMemo(() => {
-    if (!searchTerm) return APPS.slice(0, 8);
+    if (!searchTerm) return APPS;
     
     return APPS.filter(app => 
       app.name.toLowerCase().includes(searchTerm.toLowerCase()) ||

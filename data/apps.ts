@@ -7,7 +7,7 @@ export type AppItem = {
   codes: {
     id: string;
     owner: "editor";
-    code: string;
+    code?: string;
     referralUrl: string;
     note?: string;
   }[];
@@ -15,166 +15,116 @@ export type AppItem = {
 
 export const APPS: AppItem[] = [
   {
-    name: "Uber",
-    slug: "uber",
-    shortDesc: "Transport VTC avec bonus de bienvenue",
+    name: "TheFork",
+    slug: "thefork",
+    shortDesc: "Gagne des Yums en réservant au resto.",
     howTo: [
-      "Téléchargez l'application Uber",
-      "Créez votre compte",
-      "Entrez le code parrainage lors de l'inscription",
-      "Effectuez votre premier trajet",
-      "Recevez votre bonus immédiatement"
+      "Crée/ouvre ton compte TheFork.",
+      "Entre le code 84B7799 ou passe par le lien.",
+      "Réserve via l'app et honore ta 1ʳᵉ réservation."
     ],
     terms: [
-      "Code valable pour les nouveaux utilisateurs uniquement",
-      "Bonus crédité après le premier trajet payant",
-      "Montant du bonus variable selon les promotions en cours",
-      "Offre non cumulable avec d'autres promotions"
+      "Bonus en Yums, campagnes périodiques susceptibles d'évoluer.",
+      "Crédités après la 1ʳᵉ réservation honorée.",
+      "Offre réservée aux nouveaux comptes selon conditions TheFork."
     ],
     codes: [
       {
-        id: "uber-editor-2025",
+        id: "main",
         owner: "editor",
-        code: "UBER2025",
-        referralUrl: "https://www.uber.com/fr/fr/",
-        note: "Code officiel ParrainGo - Bonus garanti"
-      }
-    ]
-  },
-  {
-    name: "Uber Eats",
-    slug: "uber-eats",
-    shortDesc: "Livraison de repas avec réduction",
-    howTo: [
-      "Téléchargez l'application Uber Eats",
-      "Créez votre compte",
-      "Entrez le code parrainage",
-      "Passez votre première commande",
-      "Bénéficiez de la réduction immédiate"
-    ],
-    terms: [
-      "Code valable pour les nouveaux utilisateurs",
-      "Réduction appliquée sur la première commande",
-      "Montant minimum de commande requis",
-      "Offre limitée dans le temps"
-    ],
-    codes: [
-      {
-        id: "uber-eats-editor-2025",
-        owner: "editor",
-        code: "EATS2025",
-        referralUrl: "https://www.ubereats.com/fr",
-        note: "Code officiel ParrainGo - Réduction garantie"
+        code: "84B7799",
+        referralUrl: "https://tfk.io/5zqj9x3a",
+        note: "Utilise le code ou clique sur le lien."
       }
     ]
   },
   {
     name: "Vinted",
     slug: "vinted",
-    shortDesc: "Vente et achat de vêtements d'occasion",
+    shortDesc: "Avantages de bienvenue via parrainage.",
     howTo: [
-      "Téléchargez l'application Vinted",
-      "Créez votre compte",
-      "Entrez le code parrainage",
-      "Effectuez votre premier achat",
-      "Recevez votre crédit de bienvenue"
+      "Clique sur le lien d'invitation.",
+      "Crée ton compte Vinted.",
+      "Suis les étapes indiquées dans l'app."
     ],
     terms: [
-      "Code valable pour les nouveaux utilisateurs",
-      "Crédit crédité après le premier achat validé",
-      "Montant du crédit variable selon les promotions",
-      "Crédit utilisable sur la plateforme uniquement"
+      "Réservé aux nouveaux comptes.",
+      "Montant/conditions variables selon pays et périodes."
     ],
     codes: [
       {
-        id: "vinted-editor-2025",
+        id: "main",
         owner: "editor",
-        code: "VINTED2025",
-        referralUrl: "https://www.vinted.fr/",
-        note: "Code officiel ParrainGo - Crédit garanti"
+        referralUrl: "https://www.vinted.fr/invite/julienraad",
+        note: "Parrainage via lien direct."
+      }
+    ]
+  },
+  {
+    name: "PayPal",
+    slug: "paypal",
+    shortDesc: "Prime après 1ʳᵉ dépense du filleul.",
+    howTo: [
+      "Ouvre ton compte via le lien.",
+      "Vérifie ton compte si demandé.",
+      "Effectue une dépense éligible."
+    ],
+    terms: [
+      "Offre annoncée jusqu'au 31 décembre 2025.",
+      "Conditions et montants susceptibles d'évoluer selon PayPal.",
+      "Le filleul doit réaliser une dépense éligible sous 30 jours (à vérifier dans l'app)."
+    ],
+    codes: [
+      {
+        id: "main",
+        owner: "editor",
+        referralUrl: "https://py.pl/3z5JGQiM3Ib",
+        note: "Offre limitée dans le temps."
       }
     ]
   },
   {
     name: "Revolut",
     slug: "revolut",
-    shortDesc: "Banque mobile avec carte gratuite",
+    shortDesc: "Bonus après inscription et premières actions.",
     howTo: [
-      "Téléchargez l'application Revolut",
-      "Créez votre compte",
-      "Entrez le code parrainage",
-      "Commandez votre carte",
-      "Recevez votre bonus après activation"
+      "Inscris-toi via le lien.",
+      "Vérifie ton identité (KYC) et alimente le compte.",
+      "Commande la carte et effectue des achats éligibles."
     ],
     terms: [
-      "Code valable pour les nouveaux utilisateurs",
-      "Bonus crédité après activation de la carte",
-      "Montant du bonus variable selon les promotions",
-      "Conditions d'éligibilité à vérifier"
+      "Conditions fréquemment mises à jour par Revolut.",
+      "Toutes les étapes peuvent être requises pour libérer la prime."
     ],
     codes: [
       {
-        id: "revolut-editor-2025",
+        id: "main",
         owner: "editor",
-        code: "REVOLUT2025",
-        referralUrl: "https://www.revolut.com/fr/",
-        note: "Code officiel ParrainGo - Bonus garanti"
-      }
-    ]
-  },
-  {
-    name: "Lydia",
-    slug: "lydia",
-    shortDesc: "Paiement mobile entre amis",
-    howTo: [
-      "Téléchargez l'application Lydia",
-      "Créez votre compte",
-      "Entrez le code parrainage",
-      "Effectuez votre premier paiement",
-      "Recevez votre bonus de bienvenue"
-    ],
-    terms: [
-      "Code valable pour les nouveaux utilisateurs",
-      "Bonus crédité après le premier paiement",
-      "Montant du bonus fixe selon les promotions",
-      "Offre limitée dans le temps"
-    ],
-    codes: [
-      {
-        id: "lydia-editor-2025",
-        owner: "editor",
-        code: "LYDIA2025",
-        referralUrl: "https://lydia-app.com/",
-        note: "Code officiel ParrainGo - Bonus garanti"
+        referralUrl: "https://revolut.com/referral/?referral-code=jraad_18&geo-redirect",
+        note: "Parrainage via lien direct."
       }
     ]
   },
   {
     name: "Wise",
     slug: "wise",
-    shortDesc: "Transferts d'argent internationaux",
+    shortDesc: "Avantages après 1ʳᵉ utilisation.",
     howTo: [
-      "Téléchargez l'application Wise",
-      "Créez votre compte",
-      "Entrez le code parrainage",
-      "Effectuez votre premier transfert",
-      "Recevez votre bonus de bienvenue"
+      "Ouvre le compte via le lien.",
+      "Vérifie ton identité si demandé.",
+      "Effectue un premier transfert/usage éligible."
     ],
     terms: [
-      "Code valable pour les nouveaux utilisateurs",
-      "Bonus crédité après le premier transfert",
-      "Montant minimum de transfert requis",
-      "Offre limitée géographiquement"
+      "Conditions et seuils variables selon la région.",
+      "Vérifie les détails dans l'app Wise."
     ],
     codes: [
       {
-        id: "wise-editor-2025",
+        id: "main",
         owner: "editor",
-        code: "WISE2025",
-        referralUrl: "https://wise.com/fr/",
-        note: "Code officiel ParrainGo - Bonus garanti"
+        referralUrl: "https://wise.com/invite/dic/julienr983",
+        note: "Lien de parrainage direct."
       }
     ]
   }
 ];
-
