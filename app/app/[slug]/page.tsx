@@ -105,7 +105,7 @@ export default function AppPage({ params }: PageProps) {
         {/* Terms */}
         <div className="bg-white rounded-xl border border-gray-200 p-6 mb-8">
           <h2 className="text-2xl font-bold font-poppins text-ink mb-6">
-            Conditions d'utilisation
+            Conditions d&apos;utilisation
           </h2>
           <div className="space-y-3">
             {app.terms.map((term, index) => (

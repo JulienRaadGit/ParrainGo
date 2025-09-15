@@ -26,7 +26,7 @@ export default function CodeCard({ app, code }: CodeCardProps) {
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
           <span className="bg-accent text-white text-xs font-medium px-2 py-1 rounded-full">
-            Code de l'éditeur
+            Code de l&apos;éditeur
           </span>
         </div>
       </div>

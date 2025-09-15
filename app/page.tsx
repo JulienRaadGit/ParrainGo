@@ -56,7 +56,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold font-poppins text-ink mb-4">
-              {searchTerm ? `Résultats pour "${searchTerm}"` : 'Applications populaires'}
+              {searchTerm ? `Résultats pour &quot;${searchTerm}&quot;` : 'Applications populaires'}
             </h2>
             <p className="text-muted text-lg">
               {searchTerm 
@@ -104,7 +104,7 @@ export default function HomePage() {
                 Aucun résultat trouvé
               </h3>
               <p className="text-muted">
-                Essayez avec d'autres mots-clés ou explorez nos applications populaires.
+                Essayez avec d&apos;autres mots-clés ou explorez nos applications populaires.
               </p>
             </div>
           )}
@@ -132,7 +132,7 @@ export default function HomePage() {
                 Trouvez votre app
               </h3>
               <p className="text-muted">
-                Recherchez l'application qui vous intéresse et découvrez le code parrainage disponible.
+                Recherchez l&apos;application qui vous intéresse et découvrez le code parrainage disponible.
               </p>
             </div>
 
@@ -144,7 +144,7 @@ export default function HomePage() {
                 Copiez le code
               </h3>
               <p className="text-muted">
-                Cliquez sur "Copier le code" pour l'utiliser lors de votre inscription.
+                Cliquez sur &quot;Copier le code&quot; pour l&apos;utiliser lors de votre inscription.
               </p>
             </div>
 
@@ -156,7 +156,7 @@ export default function HomePage() {
                 Recevez votre bonus
               </h3>
               <p className="text-muted">
-                Suivez les étapes d'inscription et bénéficiez immédiatement de votre bonus.
+                Suivez les étapes d&apos;inscription et bénéficiez immédiatement de votre bonus.
               </p>
             </div>
           </div>

@@ -15,7 +15,7 @@ export default function CguPage() {
     <div className="min-h-screen py-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold font-poppins text-ink mb-8">
-          Conditions générales d'utilisation
+          Conditions générales d&apos;utilisation
         </h1>
 
         <div className="prose prose-lg max-w-none">
@@ -24,7 +24,7 @@ export default function CguPage() {
               Objet
             </h2>
             <p className="text-muted leading-relaxed">
-              Les présentes conditions générales d'utilisation (CGU) régissent l'utilisation du site ParrainGo, accessible à l'adresse parraingo.fr. L'utilisation du site implique l'acceptation pleine et entière des présentes CGU.
+              Les présentes conditions générales d&apos;utilisation (CGU) régissent l&apos;utilisation du site ParrainGo, accessible à l&apos;adresse parraingo.fr. L&apos;utilisation du site implique l&apos;acceptation pleine et entière des présentes CGU.
             </p>
           </section>
 
@@ -33,10 +33,10 @@ export default function CguPage() {
               Définitions
             </h2>
             <ul className="text-muted space-y-2">
-              <li><strong>Site :</strong> Le site web ParrainGo accessible à l'adresse parraingo.fr</li>
+              <li><strong>Site :</strong> Le site web ParrainGo accessible à l&apos;adresse parraingo.fr</li>
               <li><strong>Utilisateur :</strong> Toute personne accédant au site</li>
               <li><strong>Éditeur :</strong> ParrainGo, éditeur du site</li>
-              <li><strong>Codes parrainage :</strong> Codes promotionnels permettant d'obtenir des avantages lors de l'inscription à des services tiers</li>
+              <li><strong>Codes parrainage :</strong> Codes promotionnels permettant d&apos;obtenir des avantages lors de l&apos;inscription à des services tiers</li>
             </ul>
           </section>
 
@@ -45,10 +45,10 @@ export default function CguPage() {
               Accès au site
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              Le site est accessible gratuitement à tout utilisateur disposant d'un accès à Internet. Tous les frais supportés par l'utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.
+              Le site est accessible gratuitement à tout utilisateur disposant d&apos;un accès à Internet. Tous les frais supportés par l&apos;utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.
             </p>
             <p className="text-muted leading-relaxed">
-              ParrainGo se réserve le droit d'interrompre temporairement ou définitivement l'accès au site pour des raisons de maintenance, de mise à jour ou pour toute autre raison.
+              ParrainGo se réserve le droit d&apos;interrompre temporairement ou définitivement l&apos;accès au site pour des raisons de maintenance, de mise à jour ou pour toute autre raison.
             </p>
           </section>
 
@@ -57,7 +57,7 @@ export default function CguPage() {
               Utilisation du site
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              L'utilisateur s'engage à utiliser le site de manière conforme à sa destination et s'interdit notamment de :
+              L&apos;utilisateur s&apos;engage à utiliser le site de manière conforme à sa destination et s&apos;interdit notamment de :
             </p>
             <ul className="text-muted space-y-2">
               <li>Utiliser le site à des fins illégales ou non autorisées</li>
@@ -73,13 +73,13 @@ export default function CguPage() {
               Codes parrainage
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              ParrainGo met à disposition des codes parrainage pour diverses applications et services. L'utilisateur reconnaît que :
+              ParrainGo met à disposition des codes parrainage pour diverses applications et services. L&apos;utilisateur reconnaît que :
             </p>
             <ul className="text-muted space-y-2">
               <li>Les codes parrainage sont fournis à titre informatif</li>
               <li>La validité et les conditions des codes dépendent des services tiers</li>
               <li>ParrainGo ne peut garantir la disponibilité ou la validité des codes</li>
-              <li>L'utilisateur est seul responsable de l'utilisation des codes</li>
+              <li>L&apos;utilisateur est seul responsable de l&apos;utilisation des codes</li>
             </ul>
           </section>
 
@@ -88,7 +88,7 @@ export default function CguPage() {
               Propriété intellectuelle
             </h2>
             <p className="text-muted leading-relaxed">
-              L'ensemble du contenu du site (textes, images, vidéos, logos, etc.) est protégé par le droit d'auteur et appartient à ParrainGo ou à ses partenaires. Toute reproduction, distribution ou utilisation non autorisée est interdite.
+              L&apos;ensemble du contenu du site (textes, images, vidéos, logos, etc.) est protégé par le droit d&apos;auteur et appartient à ParrainGo ou à ses partenaires. Toute reproduction, distribution ou utilisation non autorisée est interdite.
             </p>
           </section>
 
@@ -97,16 +97,16 @@ export default function CguPage() {
               Responsabilité
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              ParrainGo s'efforce de fournir des informations exactes et à jour, mais ne peut garantir :
+              ParrainGo s&apos;efforce de fournir des informations exactes et à jour, mais ne peut garantir :
             </p>
             <ul className="text-muted space-y-2">
-              <li>L'exactitude des informations publiées</li>
+              <li>L&apos;exactitude des informations publiées</li>
               <li>La disponibilité continue du site</li>
-              <li>L'absence d'erreurs ou de virus</li>
+              <li>L&apos;absence d&apos;erreurs ou de virus</li>
               <li>La validité des codes parrainage</li>
             </ul>
             <p className="text-muted leading-relaxed mt-4">
-              ParrainGo ne saurait être tenu responsable des dommages directs ou indirects résultant de l'utilisation du site.
+              ParrainGo ne saurait être tenu responsable des dommages directs ou indirects résultant de l&apos;utilisation du site.
             </p>
           </section>
 
@@ -115,7 +115,7 @@ export default function CguPage() {
               Liens externes
             </h2>
             <p className="text-muted leading-relaxed">
-              Le site peut contenir des liens vers des sites externes. ParrainGo n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou leur politique de confidentialité.
+              Le site peut contenir des liens vers des sites externes. ParrainGo n&apos;exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou leur politique de confidentialité.
             </p>
           </section>
 
@@ -124,7 +124,7 @@ export default function CguPage() {
               Modification des CGU
             </h2>
             <p className="text-muted leading-relaxed">
-              ParrainGo se réserve le droit de modifier les présentes CGU à tout moment. Les modifications entrent en vigueur dès leur publication sur le site. Il appartient à l'utilisateur de consulter régulièrement les CGU.
+              ParrainGo se réserve le droit de modifier les présentes CGU à tout moment. Les modifications entrent en vigueur dès leur publication sur le site. Il appartient à l&apos;utilisateur de consulter régulièrement les CGU.
             </p>
           </section>
 
@@ -142,7 +142,7 @@ export default function CguPage() {
               Contact
             </h2>
             <p className="text-muted leading-relaxed">
-              Pour toute question concernant ces conditions générales d'utilisation, vous pouvez nous contacter à : contact@parraingo.fr
+              Pour toute question concernant ces conditions générales d&apos;utilisation, vous pouvez nous contacter à : contact@parraingo.fr
             </p>
           </section>
 

@@ -28,7 +28,7 @@ export default function ConfidentialitePage() {
             </p>
             <ul className="text-muted space-y-2">
               <li><strong>Données de navigation :</strong> Adresse IP, type de navigateur, pages visitées</li>
-              <li><strong>Données d'utilisation :</strong> Codes copiés, clics sur les liens de redirection</li>
+              <li><strong>Données d&apos;utilisation :</strong> Codes copiés, clics sur les liens de redirection</li>
               <li><strong>Cookies :</strong> Cookies techniques pour le fonctionnement du site</li>
             </ul>
           </section>
@@ -42,7 +42,7 @@ export default function ConfidentialitePage() {
             </p>
             <ul className="text-muted space-y-2">
               <li>Améliorer le fonctionnement du site</li>
-              <li>Analyser l'utilisation des codes parrainage</li>
+              <li>Analyser l&apos;utilisation des codes parrainage</li>
               <li>Fournir des statistiques anonymisées</li>
               <li>Assurer la sécurité du site</li>
             </ul>
@@ -82,7 +82,7 @@ export default function ConfidentialitePage() {
               Sécurité des données
             </h2>
             <p className="text-muted leading-relaxed">
-              Nous mettons en place des mesures techniques et organisationnelles appropriées pour protéger vos données contre la perte, l'utilisation abusive, l'accès non autorisé, la divulgation, l'altération ou la destruction.
+              Nous mettons en place des mesures techniques et organisationnelles appropriées pour protéger vos données contre la perte, l&apos;utilisation abusive, l&apos;accès non autorisé, la divulgation, l&apos;altération ou la destruction.
             </p>
           </section>
 
@@ -94,11 +94,11 @@ export default function ConfidentialitePage() {
               Conformément au RGPD, vous disposez des droits suivants :
             </p>
             <ul className="text-muted space-y-2">
-              <li><strong>Droit d'accès :</strong> Connaître les données que nous détenons sur vous</li>
+              <li><strong>Droit d&apos;accès :</strong> Connaître les données que nous détenons sur vous</li>
               <li><strong>Droit de rectification :</strong> Corriger des données inexactes</li>
-              <li><strong>Droit d'effacement :</strong> Demander la suppression de vos données</li>
+              <li><strong>Droit d&apos;effacement :</strong> Demander la suppression de vos données</li>
               <li><strong>Droit à la portabilité :</strong> Récupérer vos données dans un format structuré</li>
-              <li><strong>Droit d'opposition :</strong> Vous opposer au traitement de vos données</li>
+              <li><strong>Droit d&apos;opposition :</strong> Vous opposer au traitement de vos données</li>
             </ul>
           </section>
 

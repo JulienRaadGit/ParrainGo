@@ -47,10 +47,10 @@ export default function MentionsLegalesPage() {
               Propriété intellectuelle
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              L'ensemble du contenu du site ParrainGo (textes, images, vidéos, etc.) est protégé par le droit d'auteur et appartient à ParrainGo ou à ses partenaires.
+              L&apos;ensemble du contenu du site ParrainGo (textes, images, vidéos, etc.) est protégé par le droit d&apos;auteur et appartient à ParrainGo ou à ses partenaires.
             </p>
             <p className="text-muted leading-relaxed">
-              Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces éléments est strictement interdite sans l'accord exprès par écrit de ParrainGo.
+              Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces éléments est strictement interdite sans l&apos;accord exprès par écrit de ParrainGo.
             </p>
           </section>
 
@@ -59,10 +59,10 @@ export default function MentionsLegalesPage() {
               Responsabilité
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              ParrainGo s'efforce de fournir des informations exactes et à jour. Cependant, nous ne pouvons garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur le site.
+              ParrainGo s&apos;efforce de fournir des informations exactes et à jour. Cependant, nous ne pouvons garantir l&apos;exactitude, la précision ou l&apos;exhaustivité des informations mises à disposition sur le site.
             </p>
             <p className="text-muted leading-relaxed">
-              ParrainGo ne saurait être tenu responsable des dommages directs ou indirects causés au matériel de l'utilisateur, lors de l'accès au site, et résultant soit de l'utilisation d'un matériel ne répondant pas aux spécifications requises, soit de l'apparition d'un bug ou d'une incompatibilité.
+              ParrainGo ne saurait être tenu responsable des dommages directs ou indirects causés au matériel de l&apos;utilisateur, lors de l&apos;accès au site, et résultant soit de l&apos;utilisation d&apos;un matériel ne répondant pas aux spécifications requises, soit de l&apos;apparition d&apos;un bug ou d&apos;une incompatibilité.
             </p>
           </section>
 
@@ -71,7 +71,7 @@ export default function MentionsLegalesPage() {
               Liens externes
             </h2>
             <p className="text-muted leading-relaxed">
-              Le site ParrainGo peut contenir des liens vers d'autres sites web. ParrainGo n'est pas responsable du contenu de ces sites externes et ne peut être tenu responsable des dommages résultant de leur utilisation.
+              Le site ParrainGo peut contenir des liens vers d&apos;autres sites web. ParrainGo n&apos;est pas responsable du contenu de ces sites externes et ne peut être tenu responsable des dommages résultant de leur utilisation.
             </p>
           </section>
 
@@ -89,7 +89,7 @@ export default function MentionsLegalesPage() {
               Contact
             </h2>
             <p className="text-muted leading-relaxed">
-              Pour toute question concernant ces mentions légales, vous pouvez nous contacter à l'adresse : contact@parraingo.fr
+              Pour toute question concernant ces mentions légales, vous pouvez nous contacter à l&apos;adresse : contact@parraingo.fr
             </p>
           </section>
 
