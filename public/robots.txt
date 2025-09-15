@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://parraingo.fr/sitemap.xml
+
+# Disallow API routes
+Disallow: /api/
+
+# Disallow legal pages from indexing (optional)
+Disallow: /mentions-legales
+Disallow: /confidentialite
+Disallow: /cgu
+
