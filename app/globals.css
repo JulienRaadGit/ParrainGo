@@ -13,7 +13,7 @@
   }
 
   body {
-    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    background: linear-gradient(135deg, #fefefe 0%, #f8fafc 50%, #f1f5f9 100%);
     min-height: 100vh;
   }
 }
@@ -32,17 +32,7 @@
   }
 
   .card-premium {
-    @apply bg-gradient-to-br from-white via-white to-gray-50/50 backdrop-blur-sm rounded-3xl border border-white/30 p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 hover:scale-[1.02] relative overflow-hidden;
-  }
-
-  .card-premium::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
+    @apply bg-white/95 backdrop-blur-sm rounded-2xl border border-gray-200/60 p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative;
   }
 
   .gradient-text {
@@ -63,11 +53,11 @@
   }
 
   .animate-fade-in {
-    animation: fadeIn 0.8s ease-out;
+    animation: fadeIn 0.6s ease-out;
   }
 
   .animate-slide-up {
-    animation: slideUp 0.6s ease-out;
+    animation: slideUp 0.4s ease-out;
   }
 
   @keyframes fadeIn {
@@ -78,7 +68,7 @@
   @keyframes slideUp {
     from { 
       opacity: 0; 
-      transform: translateY(30px); 
+      transform: translateY(15px); 
     }
     to { 
       opacity: 1; 
