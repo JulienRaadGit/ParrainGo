@@ -33,15 +33,15 @@ export default function CopyButton({ code, appSlug, className = '' }: CopyButton
   return (
     <button
       onClick={handleCopy}
-      className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+      className={`px-6 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 ${
         copied
-          ? 'bg-accent text-white'
-          : 'bg-primary text-white hover:bg-blue-700'
+          ? 'bg-gradient-to-r from-accent to-green-500 text-white'
+          : 'bg-gradient-to-r from-primary to-blue-600 text-white hover:from-blue-600 hover:to-blue-700'
       } ${className}`}
       aria-live="polite"
       aria-label={copied ? 'Code copié' : 'Copier le code'}
     >
-      {copied ? 'Copié ✅' : 'Copier le code'}
+      {copied ? '✅ Copié !' : '📋 Copier le code'}
     </button>
   );
 }
