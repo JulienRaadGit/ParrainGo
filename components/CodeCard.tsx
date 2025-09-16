@@ -29,8 +29,11 @@ export default function CodeCard({ app, code }: CodeCardProps) {
       <div className="relative">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
-            <span className="bg-gradient-to-r from-accent to-green-500 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg">
-              ✨ Code de l&apos;éditeur
+            <span className="bg-gradient-to-r from-accent to-green-500 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+              </svg>
+              Code de l&apos;éditeur
             </span>
           </div>
         </div>
@@ -62,9 +65,12 @@ export default function CodeCard({ app, code }: CodeCardProps) {
           )}
           <button
             onClick={handleUseCode}
-            className={`px-6 py-4 rounded-xl font-semibold bg-gradient-to-r from-accent to-green-500 text-white shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 ${code.code ? 'flex-1' : 'w-full'}`}
+            className={`px-6 py-4 rounded-xl font-semibold bg-gradient-to-r from-accent to-green-500 text-white shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2 ${code.code ? 'flex-1' : 'w-full'}`}
           >
-            🚀 Utiliser le code
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+            Utiliser le code
           </button>
         </div>
       </div>
