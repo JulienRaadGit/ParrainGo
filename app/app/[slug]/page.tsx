@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import { APPS } from '@/data/apps';
 import CodeCard from '@/components/CodeCard';
 import Faq from '@/components/Faq';
@@ -65,10 +66,14 @@ export default function AppPage({ params }: PageProps) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-gradient-to-br from-primary to-blue-600 rounded-2xl mx-auto mb-6 flex items-center justify-center">
-            <span className="text-white font-bold text-3xl">
-              {app.name.charAt(0)}
-            </span>
+          <div className="w-20 h-20 rounded-2xl mx-auto mb-6 flex items-center justify-center bg-white border border-gray-200 shadow-sm">
+            <Image
+              src={`/images/${app.slug}.png`}
+              alt={`Logo ${app.name}`}
+              width={64}
+              height={64}
+              className="rounded-xl"
+            />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold font-poppins text-ink mb-4">
             Code parrainage {app.name} 2025 — bonus immédiat

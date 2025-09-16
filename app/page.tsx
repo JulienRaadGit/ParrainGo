@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { APPS } from '@/data/apps';
 
 export default function HomePage() {
@@ -75,10 +76,14 @@ export default function HomePage() {
                   className="card hover:shadow-lg transition-shadow duration-200 group"
                 >
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary to-blue-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">
-                        {app.name.charAt(0)}
-                      </span>
+                    <div className="w-16 h-16 rounded-xl mx-auto mb-4 flex items-center justify-center bg-white border border-gray-200 shadow-sm">
+                      <Image
+                        src={`/images/${app.slug}.png`}
+                        alt={`Logo ${app.name}`}
+                        width={48}
+                        height={48}
+                        className="rounded-lg"
+                      />
                     </div>
                     <h3 className="text-xl font-semibold font-poppins text-ink mb-2 group-hover:text-primary transition-colors">
                       {app.name}
